@@ -21,7 +21,7 @@ Software Versions: Omeka Classic Version 2.6.1 (hosted via OU Create)
   * [Deleting An Item](#deleting-an-item)
 * [Collections](#collections)
 * [Exhibits](#exhibits)
-* [Expanding Omeka](#expanding-omeka-with-plugins)
+* [Expanding Omeka](#expanding-omeka)
   * [Recommended Plugins](#recommended-plugins)
   * [Using HTML](#using-html)
 
@@ -98,8 +98,39 @@ Let's begin by adding an item to our collection.
 [Return to Top](#about)
 
 ### Adding An Item
+First, click on the green **Add an Item** button. 
+
+This will take you to a new screen with four tabs across the top: **Dublin Core**, **Item Type Metadata**, **Files**, and **Tags**. We will go through each of these tags one at time in the remainder of this section. 
+
+![Add An Item Tabs](images/image_04.jpg)
+
+*Note: Three out of four of the tab relate to metadata or "data about data". Metadata is information about the item you are uploading. You need good metadata to ensure that the item you upload is identifiable and discoverable.* 
+
+For the purpose of this tutorial, we will upload and describe a historical baseball card from the Library of Congress's collections. We selected this item because the LOC has already provided most of the metadata we need and the item is in the public domain, which means we do not need to worry about copyright restrictions. 
+
+[We will use the baseball card of Detroit Tigers player, Ty Cobb, for this example](http://www.loc.gov/pictures/collection/bbc/item/2007685675/). You can also [search through the collection](http://www.loc.gov/pictures/collection/bbc/) for other cards if you would prefer to add a different player. 
+
+Please note that although there are several sections describing how the add an item it is a fairly straight forward process once you understand the meaning behind all of the fields. If you need to stop in the middle of adding an item, you can click the green **Add Item** button on the left side of the screen. You can then go back to finish creating the item record using the edit feature, which will be covered below. 
+
+Below the Add Item button you can select a collection for the item. We will cover collections extensively in the Collections section. You can also go back and add items to collections later so do not worry about it yet unless you already have an appropriate collection created. 
+
+![Add Item Button](images/image_05.jpg)
 
 [Return to Top](#about)
+
+#### Dublin Core
+The first tab (and the one you should be on by default) is **Dublin Core**. If for some reason, you are not on this tab, click Dublin Core at the top. Dublin Core is one of the most commonly used metadata schemas. This essentially means that is a standard way to gather and represent describe items. Using these standardized schemas allows different systems to work together and be interoperable. The [Digital Public Library of America](https://dp.la/) is a great example of what can be done when metadata is standardized. 
+
+Dublin Core was created to be flexible and easy adaptable to a variety of materials and projects. In Omeka we are using Simple Dublin Core, which includes fifteen elements or fields. All fifteen may be relevant to your item or some may not apply. See the descriptions within Omeka for more details about each field. Remember the more information you can provide the more useful your site will be to visitors. 
+
+We will now go through each of the elements and apply them to the [Ty Cobb baseball card](http://www.loc.gov/pictures/collection/bbc/item/2007685675). Some of the fields are extremely clear; others are more ambiguous and will require you to use your best judgement. 
+
+[Return to Top](#about)
+
+##### Title
+The title field seems pretty self-explanatory and normally is so. This is where you enter the title of the resource; however, in practice, some of your items may not have a clear title. If there is not an obvious title from looking at the resource, check to see how your source has titled the item. According the Library of Congress, the title for our baseball card is “[Ty Cobb, Detroit Tigers, baseball card portrait].” The brackets indicate that this is a title created by the LOC because there was no printed title available on the baseball card.  If the source for the item you are uploading has no title listed, you can create one in a similar fashion. **You should include a title for every item you upload.** Omeka will label your items using the title.
+
+![Title Field](images/image_06.jpg)
 
 ## Collections
 
