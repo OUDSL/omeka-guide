@@ -47,7 +47,7 @@ Omeka has several different derivatives depending on your needs. The tutorial wi
 
 The first distinction is **omeka.net vs omeka.org**. Omeka.net is Omeka's hosted service. You create an account and have access to a limited number of plugins and storage. [Programming Historian has a great tutorial on using getting started with omeka.net](https://programminghistorian.org/en/lessons/up-and-running-with-omeka). The advantages of using omeka.net are that it is easy to set up and you don't need access to a server or IT support to install Omeka on said server. The disadvantages are the lack of storage and ability to access the full range of plugins. The self-hosted omeka downloaded from omeka.org gives you much more flexibility. OU users can easily create a self-hosted site omeka site using [OU Create](https://create.ou.edu/).
 
-Another newer distinction is Omeka Classic vs Omeka S. Omeka Classic is the standard omeka site while Omeka S is useful if you are managing multiple omeka websites. For this tutorial, we will be using Omeka Classic. 
+Another newer distinction is **Omeka Classic vs Omeka S**. Omeka Classic is the standard omeka site while Omeka S is useful if you are managing multiple omeka websites. For this tutorial, we will be using Omeka Classic. 
 
 [Return to Top](#about)
 
@@ -131,6 +131,25 @@ We will now go through each of the elements and apply them to the [Ty Cobb baseb
 The title field seems pretty self-explanatory and normally is so. This is where you enter the title of the resource; however, in practice, some of your items may not have a clear title. If there is not an obvious title from looking at the resource, check to see how your source has titled the item. According the Library of Congress, the title for our baseball card is “[Ty Cobb, Detroit Tigers, baseball card portrait].” The brackets indicate that this is a title created by the LOC because there was no printed title available on the baseball card.  If the source for the item you are uploading has no title listed, you can create one in a similar fashion. **You should include a title for every item you upload.** Omeka will label your items using the title.
 
 ![Title Field](images/image_06.jpg)
+
+##### Subject
+The Subject is the topic of your resource. They are similar to tags, which we will discuss below. Each item may have multiple subjects. Each individual subject will need to be inputted separately in order to make them more searchable. To create a second box for another subject, click the green **Add Input**.
+
+Just as it is valuable to have a standardized metadata schema, it is also worthwhile to implement **controlled vocabularies**. By having a set list of terms you can select from for your subjects, you will make it easier to link items with similar themes together.  Many of these vocabularies already exist. The [Library of Congress Subject Headings](http://id.loc.gov/authorities/subjects.html), the [Getty Art & Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/), and the [Getty Thesaurus of Geographic Names](http://www.getty.edu/research/tools/vocabularies/tgn/index.html) are some of the most commonly used vocabularies. You can also create your own controlled vocabulary list using a plugin called [Simple Vocab](https://omeka.org/classic/docs/Plugins/SimpleVocab/), which will be discussed in more detail in the Expanding Omeka with Plugins section. 
+
+For our baseball card, we can use the subject provided for us by the LOC. These subjects are derived from the LOC subject headings.
+
+Remember to add a new text box or input for each subject!  
+
+![Subject Field](images/image_07.jpg)
+
+##### Description
+Description is a free-form text box. You can decide exactly how you would like to use this field. Just be consistent! Often this element is used for a summary of the resource. This can include biographic or historical information or even a physical description of the resource. Use your best judgment about what to include. Do not be overly concern about repetition. For our example, I will write a short description of the baseball card. 
+
+![Description Field](images/image_08.jpg)
+
+##### Creator
+The creator is the entity responsible for making the resource. This could be a person or organization. You may also not be able to determine the creator. A creator may be listed as a photographer, author, or illustrator. There also may be multiple creators. Occasionally, you even have a creator for the original object and a creator for the digital representation. If you are listing multiple creators, please include each in his or her own input field. 
 
 ## Collections
 
