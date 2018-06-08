@@ -132,6 +132,8 @@ The title field seems pretty self-explanatory and normally is so. This is where 
 
 ![Title Field](images/image_06.jpg)
 
+[Return to Top](#about)
+
 ##### Subject
 The Subject is the topic of your resource. They are similar to tags, which we will discuss below. Each item may have multiple subjects. Each individual subject will need to be inputted separately in order to make them more searchable. To create a second box for another subject, click the green **Add Input**.
 
@@ -143,13 +145,25 @@ Remember to add a new text box or input for each subject!
 
 ![Subject Field](images/image_07.jpg)
 
+[Return to Top](#about)
+
 ##### Description
 Description is a free-form text box. You can decide exactly how you would like to use this field. Just be consistent! Often this element is used for a summary of the resource. This can include biographic or historical information or even a physical description of the resource. Use your best judgment about what to include. Do not be overly concern about repetition. For our example, I will write a short description of the baseball card. 
 
 ![Description Field](images/image_08.jpg)
 
+[Return to Top](#about)
+
 ##### Creator
-The creator is the entity responsible for making the resource. This could be a person or organization. You may also not be able to determine the creator. A creator may be listed as a photographer, author, or illustrator. There also may be multiple creators. Occasionally, you even have a creator for the original object and a creator for the digital representation. If you are listing multiple creators, please include each in his or her own input field. 
+The creator is the entity responsible for making the resource. This could be a person or organization. You may also not be able to determine the creator. A creator may be listed as a photographer, author, or illustrator. There also may be multiple creators. Occasionally, you even have a creator for the original object and a creator for the digital representation. If you are listing multiple creators, please include each in his or her own input field. In this example, I will include American Tobacco Company as the creator since there is no other creator information. If you do not have any information about the creator, you may leave this field blank. If you are adding a photo you took, make sure to list yourself as the creator! 
+
+![Creator Field](images/image_09.jpg)
+
+[Return to Top](#about)
+
+##### Source
+
+[Return to Top](#about)
 
 ## Collections
 
