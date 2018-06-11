@@ -148,20 +148,121 @@ Remember to add a new text box or input for each subject!
 [Return to Top](#about)
 
 ##### Description
-Description is a free-form text box. You can decide exactly how you would like to use this field. Just be consistent! Often this element is used for a summary of the resource. This can include biographic or historical information or even a physical description of the resource. Use your best judgment about what to include. Do not be overly concern about repetition. For our example, I will write a short description of the baseball card. 
+Description is a free-form text box. You can decide exactly how you would like to use this field. Just be consistent! Often this element is used for a summary of the resource. This can include biographic or historical information or even a physical description of the resource. Use your best judgment about what to include. Do not be overly concern about repetition. For our example, we will write a short description of the baseball card. 
 
 ![Description Field](images/image_08.jpg)
 
 [Return to Top](#about)
 
 ##### Creator
-The creator is the entity responsible for making the resource. This could be a person or organization. You may also not be able to determine the creator. A creator may be listed as a photographer, author, or illustrator. There also may be multiple creators. Occasionally, you even have a creator for the original object and a creator for the digital representation. If you are listing multiple creators, please include each in his or her own input field. In this example, I will include American Tobacco Company as the creator since there is no other creator information. If you do not have any information about the creator, you may leave this field blank. If you are adding a photo you took, make sure to list yourself as the creator! 
+The creator is the entity responsible for making the resource. This could be a person or organization. You may also not be able to determine the creator. A creator may be listed as a photographer, author, or illustrator. There also may be multiple creators. Occasionally, you even have a creator for the original object and a creator for the digital representation. If you are listing multiple creators, please include each in his or her own input field. In this example, we will include American Tobacco Company as the creator since there is no other creator information. If you do not have any information about the creator, you may leave this field blank. If you are adding a photo you took, make sure to list yourself as the creator! 
 
 ![Creator Field](images/image_09.jpg)
 
 [Return to Top](#about)
 
 ##### Source
+The source is where you found this resource. The source can can come in a variety of formats. The source may the permanent link for an object available online. It could also be the name of a repository or archive where the physical object is held. If you have both a URL and information about the archive or repository include both in separate input boxes. We have both for our example. You could also include a source input box indicating that an image comes from a larger work such as a book. For the URL, you can create a hyperlink to the source by checking the HTML box, and then selecting the **insert/edit link** button. 
+
+![Source Field](images/image_10.jpg)
+
+[Return to Top](#about)
+
+##### Publisher
+The publisher is the entity responsible for making the resource available. This could be an individual, person, or organization. Our poster was issued by the American Tobacco Company and made available online by the Library of Congress so we will include both of these as publishers. Some of the material you find in the archives may be unpublished. If that is the case, then leave this field blank. 
+
+![Publisher Field](images/image_11.jpg)
+
+[Return to Top](#about)
+
+##### Date
+Date seems like a simple field, but can be surprising complicated. With qualified Dublin Core, you can specify if you mean date created, date added, date modified, and so on. Just make sure you are consistent with how you use this field. If you want to use the more specific date fields, you can add qualified Dublin Core through a plugin. 
+ 
+We also need to use a standardized format for our date. [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) is the standard for the representation of date and time. The formation of your date depends on your date. Dates should be formatted as YYYY-MM-DD, YYYY-MM, or YYYY depending on your data. According to the Library of Congress metadata the card was created in 1911. 
+
+![Date Field](images/image_12.jpg)
+
+[Return to Top](#about)
+
+##### Contributor
+The contributor field is a place to list anyone or organization that has made a contribution to a resource. This field should include entities not already in another field. For example, you could include an editor here. You may not need to use this field. 
+
+[Return to Top](#about)
+
+##### Rights
+This is an essential field that you should consider while gathering and creating resources. If you are including an item from an archive or collection, you need to ensure that the items are not in copyright and able to legally be used in your site. If you are unsure, check with the archive or repository about rights and use restrictions.  There are two common ways the resources are easily useable: public domain and or it has a creative commons license. 
+
+Some of the resources you may want to use should be in the public domain. In general, most items created pre-1923 are in the public domain (there are some expectations to this rule). Also all works created by the US Government are automatically entered into the Public Domain. Our baseball card is the the public domain because it was published in 1911. 
+
+Other resources you have find may be reusable via a Creative Commons License. If you see Creative Commons logo (see the image below, check the Creative Common licenses descriptions to see what the restrictions are. All of the CC licenses, will let you re-use with proper attribution. (You should have the proper attribution already if you fully completed the other Dublin Core fields). The differences are if you are allowed edit and create derivatives from the original. These differences shouldn’t be particularly relevant to your most of your projects. Wikimedia Commons is a great place to find images that have a CC license or are in the public domain. If you have a question about rights, don’t hesitate to ask! It is a confusing subject area.
+
+![Creative Commons Logo](images/image_13.jpg)
+
+If you are adding items that you created in your project, then as the creator, it is up to you to determine the rights restrictions. We would highly recommend including a [CC license](https://creativecommons.org/licenses/) on your item. This way you are allowing others to build upon your work and promoting an open and collaborative scholarship. 
+
+Back to our example, add a statement letting your users know that the baseball card is in the public domain. 
+
+![Rights Field](images/image_14.jpg) 
+
+[Return to Top](#about)
+
+##### Relation
+The relation field should point to a related resource. One common use is to indicate that the item you are adding is part of a larger resource like a chapter out of a book. 
+
+In the example of the Ty Cobb baseball card, the LOC metadata tells us that it is part of the Benjamin K. Edwards Collection. Add that information to the Relation text box.
+
+![Relation Field](images/image_15.jpg)
+
+*Note: You may not need to use this field if it isn't relevant to your item.*
+
+[Return to Top](#about)
+
+##### Format
+The format field could encompass both the physical and digital. Like the other ambiguous elements, you will need to decide how you want to use it. You can use multiple inputs to do both. For our baseball card, we can note three formats from the LOC metadata -- baseball card, chromolithograph with hand-color, and jpg. 
+
+![Format Field](images/image_16.jpg)
+
+[Return to Top](#about)
+
+##### Language
+This field is for the language of the resource. We recommend the ISO 639-1 language code. Most of your items will be in English. The code for English is en. If you have an item in a different language, Wikipedia has a partial list of the [ISO 639-1 codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).  If there are multiple languages used, include each language in separate input boxes. 
+
+![Language Field](images/image_17.jpg)
+
+[Return to Top](#about)
+
+##### Type
+Type refers to the nature or genre of the item. We recommend using the item types within Omeka for consistency with the item type metadata . For the full list, you can refer to Item Types page within Omeka, which you can navigate using the side navigation bar. For our baseball card, we will enter the Still Image as the item type. 
+
+![Type Field](images/image_18.jpg)
+
+[Return to Top](#about)
+
+##### Identifier
+Materials you get from an archive may already have a unique identifier assigned to it. If the resource has a unique identifier from it’s source (Call number, Archives collection/series/box/folder) then include that in this field. The Baseball Card has an LOC call number so we will add that to  the identifier box. 
+
+![Identifier Field](images/image_19.jpg)
+
+[Return to Top](#about)
+
+##### Coverage
+The final Dublin Core field is coverage, which can include two different types of information -- geographic and temporal. Basically, you can put a location and time information in this element. In our example, we will do both. We will put Michigan--Detroit in the first input and 1910s in the second. 
+
+![Coverage Field](images/image_20.jpg)
+
+That concludes the standard Dublin Core fields. Now, we can take a look at the other tabs in the Add an Item interface. 
+
+[Return to Top](#about)
+
+#### Item Type metadata
+
+[Return to Top](#about)
+
+#### Files
+
+[Return to Top](#about)
+
+#### Tags
 
 [Return to Top](#about)
 
