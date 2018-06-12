@@ -312,7 +312,30 @@ To delete item, click the blue **Delete** button underneath the item's title on 
 [Return to Top](#about)
 
 ## Collections
+Collections are groups of items around a particular theme. Collections are not necessary for an Omeka site, but they can provide some nice organization for you and visitors to your website. 
 
+Creating a collection is similar to adding an item. First use the left hand navigation to go the the **Collections** page. Then select the green **Add a Collection** button. 
+
+![Add a Collection](images/image_29.jpg)
+
+This screen should look very similar to the Add an Item page. Fill in as much information as you want/is relevant for the collection. Then click the green **Add Collection** button. *Note: You also have the options to make a collection public or featured.*
+
+After you add the collection, you will be taken to the browse collections page. In the bottom right corner of the page you should a box that states how many items are not in your collection. Click on the white box to view all of the items that are currently not in a collection. 
+
+To add an item to a specific collection, you can edit the item as described above and add it to a collection using the dropdown menu on the left side of the screen. 
+
+You can also add items to collections without going into edit each item. This is especially convenient for adding multiple items to a collection at once. From the items page, select the checkboxes of each item you want to add to a collection. *Note: You can select all 10 items on the page by selecting the top checkbox.*
+
+![Add Items to a Collection](images/image_30.jpg)
+
+Then select, the **Edit** button located at the top left of the items table in the gray bar. In the bulk edit screen that appears, go to the **Collection** dropdown menu and select the collection we just created. 
+
+*Note: You can quickly edit other elements in bulk like making items public or featured or adding tags.*
+
+![Bulk Editing Items](images/image_31.jpg)
+
+Don't forget to click the green **Save Changes** before exiting the page! 
+ 
 [Return to Top](#about)
 
 ## Exhibits 
