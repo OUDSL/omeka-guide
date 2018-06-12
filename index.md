@@ -118,7 +118,7 @@ Below the Add Item button you can select a collection for the item. We will cove
 
 [Return to Top](#about)
 
-#### Dublin Core
+#### Dublin Core Metadata
 The first tab (and the one you should be on by default) is **Dublin Core**. If for some reason, you are not on this tab, click Dublin Core at the top. Dublin Core is one of the most commonly used metadata schemas. This essentially means that is a standard way to gather and represent describe items. Using these standardized schemas allows different systems to work together and be interoperable. The [Digital Public Library of America](https://dp.la/) is a great example of what can be done when metadata is standardized. 
 
 Dublin Core was created to be flexible and easy adaptable to a variety of materials and projects. In Omeka we are using Simple Dublin Core, which includes fifteen elements or fields. All fifteen may be relevant to your item or some may not apply. See the descriptions within Omeka for more details about each field. Remember the more information you can provide the more useful your site will be to visitors. 
@@ -283,15 +283,31 @@ You can enter all of your tags at once by entering them in the text box separate
 
 *Note: After you have added some tags, pre-existing tags will be suggested when you are start typing in new tags. Pay attention since this can help prevent mistakes like having a plural and singular version of the same tag.*
 
-Now, click on the green **Add Item** button on the right side of your screen to add the file and its associated metadata to your collection as an item. 
+Now, click on the green **Add Item** button on the right side of your screen to add the file and its associated metadata to your collection as an item. Under the **Add Item ** button, you can choose to make your item public or featured, which in most themes will automatically place the item on your front page. You can also choose to add it to a collection, if you already have one set up. For now, we will leave all of these actions unchecked and add our baseball card.  
+
+![Adding Item](images/image_25.jpg)
 
 [Return to Top](#about)
 
 ### Editing an Item
+After you have already added an item, you may want to go back and make some edits. Omeka makes this easy. Select **Items** the left hand navigation to go to the list of all your items. 
+
+Then, select click the blue **Edit** button right below the name of the item. This will open up the same interface we worked with when adding the item. 
+
+![Editing an Item](images/image_26.jpg)
+
+Make any changes you want. Just make sure to click the green **Save Changes** button when you are done.  
+
+![Saving Changes](images/image_27.jpg)
 
 [Return to Top](#about)
 
 ### Deleting an Item
+Occasionally, you may want to delete an item you have added. Do this with caution because you cannot easily reverse this. Consider making an item private if you do not want it to be displayed on the site but may want to use it in the future. 
+
+To delete item, click the blue **Delete** button underneath the item's title on the Items page. When you click delete, a dialog box will appear asking you to confirm the deletion. If you are sure, click **Delete**; otherwise, exit out of the dialog box. 
+
+![Deleting an Item](images/image_28.jpg)
 
 [Return to Top](#about)
 
