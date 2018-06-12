@@ -255,14 +255,43 @@ That concludes the standard Dublin Core fields. Now, we can take a look at the o
 [Return to Top](#about)
 
 #### Item Type metadata
+Click on **Item Type Metadata** at the top of the page. Select the dropdown menu to see all of the possible types. As we decided above, our baseball card best fits in the **Still Image** category. Select that option from the dropdown menu. 
+
+![Selecting Image Type](images/image_21.jpg)
+
+After selecting Still Image, two new text boxes should appear. Each item type has a unique set of additional fields to you have the option to complete. For still images, the fields are original format and physical dimensions. Since the LOC metadata does not include the physical dimensions, we will just add the original format. 
+
+![Still Image Item Type Metadata](images/image_22.jpg)
 
 [Return to Top](#about)
 
 #### Files
+Now, we can add the images to our metadata. The baseball card has two images -- a front view and a back view. We will want to upload both. Download the images from the [LOC page](http://www.loc.gov/pictures/collection/bbc/item/2007685675/) if you have not already done so and save them in a location you can easily locate. 
+
+First, click **Files** at the top of the screen. Click **Choose File** and select the image you want to upload. Then, click the green **Add Another File** to add another **Choose File** button. Use this button to add the other image. 
+
+![Adding Files](images/image_23.jpg)
 
 [Return to Top](#about)
 
 #### Tags
+The final tab in Add an Item is Tags. Tags are a less formal way to categorize that item.  If you have ever used flicker of a hashtag on twitter or Facebook, you have created tags. Try to think of words or phrases that someone might use to search the collection. Even though we are not using a formal controlled vocabulary, we still do need to strive for consistency in our tagging system. For example, we would not want both “Park” and “Parks” to be tags. 
+
+You can enter all of your tags at once by entering them in the text box separated by commas. Make sure that you click the green Add Tags before moving on from this section. When your tags are added, they will appear in green boxes in this section. For this example, we will add baseball, Detroit Tigers, and outfielder as tags. Feel free to add as many additional tags as you would like. Remember to separate tags with a comma. Click **Add Tags** when you are done. 
+
+![Adding Tags](images/image_24.jpg)
+
+*Note: After you have added some tags, pre-existing tags will be suggested when you are start typing in new tags. Pay attention since this can help prevent mistakes like having a plural and singular version of the same tag.*
+
+Now, click on the green **Add Item** button on the right side of your screen to add the file and its associated metadata to your collection as an item. 
+
+[Return to Top](#about)
+
+### Editing an Item
+
+[Return to Top](#about)
+
+### Deleting an Item
 
 [Return to Top](#about)
 
