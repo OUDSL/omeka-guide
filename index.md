@@ -1,5 +1,5 @@
 ## About
-Last Updated June 8, 2018  
+Last Updated June 13, 2018  
 Created by Sarah Clayton   
 Software Versions: Omeka Classic Version 2.6.1 (hosted via OU Create) 
 
@@ -21,6 +21,10 @@ Software Versions: Omeka Classic Version 2.6.1 (hosted via OU Create)
   * [Deleting An Item](#deleting-an-item)
 * [Collections](#collections)
 * [Exhibits](#exhibits)
+  * [Enabling Exhibit Builder](#enabling-exhibit-builder)
+  * [Creating a New Exhibit](#creating-a-new-exhibit)
+  * [Exhibit Metadata](#exhibit-metadata)
+  * [Pages](#pages)
 * [Expanding Omeka](#expanding-omeka)
   * [Recommended Plugins](#recommended-plugins)
   * [Using HTML](#using-html)
@@ -339,18 +343,114 @@ Don't forget to click the green **Save Changes** before exiting the page!
 [Return to Top](#about)
 
 ## Exhibits 
+One of the strengths of Omeka is the ability to easily build interactive elements. Before we create exhibits, we will need to enable the Exhibit Builder plugin. 
 
 [Return to Top](#about)
 
+### Enabling Exhibit Builder
+First click on **Plugins** on the right side in the menu bar at the top of the screen. You should be taken to a list of three plugins that come with the default Omeka software package. 
+
+*Note: If you want to install other plugins, please see the guide on [setting up Omeka](https://oudsl.github.io/OUCreate_and_Omeka/#plugins).* 
+
+Next to exhibit builder click the green **Install** button. 
+
+![Installing Exhibit Builder](images/image_32.jpg)
+
+You will be taken to a screen to decide how you want your exhibits sorted. In this example, we will just leave the default of date added. Click the green **Save Changes** button to finish activating the plugin. 
+
+![Configuring Exhibit Builder](images/image_33.jpg)
+
+[Return to Top](#about)
+
+### Creating a New Exhibit
+After installing the plugin, a new item called **Exhibits** should have been added to your left side menu. Click on it to go the the exhibits page.
+
+On the exhibits page, click the green **Add an Exhibit** button to start creating a exhibit.
+
+![Add an Exhibit](images/image_34.jpg)
+
+[Return to Top](#about)
+
+### Exhibit Metadata
+You will be taken to the Exhibit Metadata page. Below is a brief description of each of the fields. 
+ 
+TITLE: Pick a good title for your Exhibit
+
+SLUG: This is what will be appended to your URL. You will want to pick some short and related to your exhibit. A good rule is to use a shorten version of your title. 
+
+CREDITS: Enter your name or organization here. 
+
+DESCRIPTION: Write a short paragraph about the content of your exhibit. 
+
+TAGS: Follow the same rules you used from Item tags. 
+
+THEME: Generally, we recommend leaving the “Current Public Theme” selected because it helps the site be consistent, but feel free to experiment using another theme if you would like. 
+ 
+USE SUMMARY PAGE: This is will cause your description above to be displayed on your first page. You can choose whether or not to select this.  
+
+COVER IMAGE: Pick out an image you would like to be displayed on the first page of your exhibit and in the links to your exhibit. 
+
+Click the green **Save Changes**. You will remain on the same screen after saving your changes. 
+
+[Return to Top](#about)
+
+### Pages
+Your exhibit is built with pages. Every page should have an individual title and slug. This slug will be appended onto your Exhibit slug. Each of the pages is created using content blocks.  There are five kinds of Content blocks you can select. We will briefly cover each below. To add a content block to your page, select the prefer type of block under **Select Layout** and then click the green **Add new content block**. *Note: After adding the block, you may need to scroll down to see it.* 
+
+[Return to Top](#about)
+
+#### Text
+The text block is meant just for text. You can use the text editor at the top of the box to format your text and insert hyperlinks. 
+
+[Return to Top](#about)
+
+#### File with Text
+File with Text block is the same as the Text block, but there is an option to Add Item. If you click the **Add Item** box, you are given the option to attach an item. Click on the blue **Show Search Form** to use an advanced search options to quickly find the appropriate item. You can use the Layout Options (located between the Text box to change the display of your file. 
+ 
+[Return to Top](#about)
+
+#### Gallery
+The Gallery block is designed to display multiple files or images. If you select Layout Options, you should see more options than for file with text. The best way to learn what these options do is to play around with them. 
+
+[Return to Top](#about)
+
+#### File
+The file block is for when you want to have a standalone file. If you click the **Add Item** box, you are given the option to attach an item. Click on the blue **Show Search Form** to use an advanced search options to quickly find the appropriate item. You can use the Layout Options (located between the Text box to change the display of your file. 
+ 
+[Return to Top](#about)
 
 ## Expanding Omeka
+The above tutorial covered much of the basics of Omeka, but you may want to expand the functionality beyond this. There are two easy approaches to extending Omeka. 
 
 [Return to Top](#about)
 
 ### Recommended plugins
+Installing additional plugins is a great way to boost Omeka's functionality. Exhibit Builder, Simple Pages, and COINs are pre-installed on Omeka. The other available plugins are downloadable at [https://omeka.org/classic/plugins/](https://omeka.org/classic/plugins/). To download and install this plugins onto your Omeka site hosted on OU Create follow the instructions in the guide on [setting up Omeka](https://oudsl.github.io/OUCreate_and_Omeka/#plugins).
+
+Below are some of our favorite plugins, you may want to consider adding to your site. If you have further questions about these plugins, don't hesitate to get in touch or ask the Omeka forums!
+* [CSV Import](https://omeka.org/classic/plugins/CsvImport/): Allows you to bulk import items into Omeka via a CSV(comma separated file).
+* [Geolocation](https://omeka.org/classic/plugins/Geolocation/): Let's you easily add geographic information to items and add them to a map. 
+* [Hide Elements](https://omeka.org/classic/plugins/HideElements/): Allows you to remove some of the metadata elements from the public display. This is helpful if you are not using all the metadata fields. 
+* [Neatline](https://omeka.org/classic/plugins/Neatline/): Enables users to create maps that include text and timelines. 
+* [Search By Metadata](https://omeka.org/classic/plugins/SearchByMetadata/): Let's user link different metadata fields together to improve searching and discoverablity. 
+* [Simple Pages](https://omeka.org/classic/plugins/SimplePages/):Enables the creation of simple pages. This is great for About pages. *Note: This is pre-installed. You just need to activate it on the plugins page.*
+* [Simple Vocab](https://omeka.org/classic/plugins/SimpleVocab/): Let's you create a controlled vocabulary to make metadata entry cleaner and easier. 
+* [YouTube Import](https://omeka.org/classic/plugins/YouTubeImport/): With this plugin, you can import a video from YouTube as an Omeka item using the video's URL. *Note: Because of the size of videos, we recommend hosting them outside Omeka on a site like Youtube. This plugin is great for getting those video's metadata into Omeka.*
 
 [Return to Top](#about)
 
 ### Using HTML 
+The other way to customize Omeka is to use HTML. In most of the text boxes in Omeka, there is an option to input HTML. In item and collection metadata there is an **HTML** button. In the exhibits, look for **<>**, which will open up a Source Code box where you can enter HTML. 
+
+Even if you do not have any prior experience with HTML, you can learn to implement a few code snippets in Omeka! For example, using HTML in Omeka is particularly useful when you want to embed something onto your site. For example, you may want to put a data visualization from Tableau on an exhibit page or maybe you want to include a video that you have not added as an item. The most common way to embed content from another website (if it doesn't already provide a embed code) is to use an **iframe**. After selecting the option to input html enter the code below, where [url] is the website or content you want to display on your site. 
+
+**\<iframe src="[url]">
+\</iframe>**
+
+That's it! You can add extra parameters like width and height, but that is all the code you need to display another website in your Omeka site. 
 
 [Return to Top](#about)
+
+
+## Conclusion
+We hope this tutorial has been helpful. There are many resources out there to help get started and troubleshoot Omeka so if you have a question, you can often find the answer via a google search or a few minutes in the Omeka users' forum. However, please feel free to reach out the [OU Libraries' DSL](https://libraries.ou.edu/content/digital-scholarship-laboratory) for more information about Omeka and other digital tools. 
