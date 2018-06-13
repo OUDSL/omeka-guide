@@ -31,14 +31,14 @@ Software Versions: Omeka Classic Version 2.6.1 (hosted via OU Create)
 * [Conclusion](#conclusion)
 
 ## What is Omeka?
-[Omeka](https://omeka.org/classic/) is an open-sourced content management system (CMS) developed by the [Roy Rosenzweig Center of History and New Media at George Mason University](https://rrchnm.org/). Omeka was created to share digital collections and build online exhibits. It has an easy to use interface that allows users to create websites without any coding. In this tutorial, we will go through how to add items (and metadata about those items) to a digital collections in Omeka and then create rich exhibits using those collections.
+[Omeka](https://omeka.org/classic/) is an open-sourced content management system (CMS) developed by the [Roy Rosenzweig Center of History and New Media at George Mason University](https://rrchnm.org/). Omeka was created to share digital collections and interactive online exhibits. It has an easy-to-use interface that allows users to build websites without any coding. In this tutorial, we will go through how to add items (and metadata about those items) to a digital collections in Omeka and then create rich exhibits using those collections.
 
 [Return to Top](#about)
 
 ### Example Projects
-Omeka has been used since 2007 in a wide variety of projects. You can view example project in the [Omeka Classic Directory](https://omeka.org/classic/directory/). Take a few minutes to look through some of the different projects built on the platform. 
+Omeka has been used since 2007 in a wide variety of projects. You can view example websites in the [Omeka Classic Directory](https://omeka.org/classic/directory/). Take a few minutes to look through some of the different projects built on the platform. 
 
-The University of Oklahoma Libraries' Digital Scholarship Lab (DSL) has been involved in the creation of several Omeka sites. Here are two examples from our Lab. 
+The University of Oklahoma Libraries' Digital Scholarship Lab (DSL) has been involved in the creation of several Omeka sites. Here are two examples from the DSL. 
 * [Making of Modern America: Discovering the Great Depression and New Deal](http://newdeal.oucreate.com/)
 * [Project Jordan: The Wives of English Kings](http://www.jordanproject.oucreate.com/)
 
@@ -46,13 +46,13 @@ The University of Oklahoma Libraries' Digital Scholarship Lab (DSL) has been inv
 
 
 ### Which Omeka to Use?
-Omeka has several different derivatives depending on your needs. The tutorial will be using a self hosted version of Omeka classic; however, the instructions will likely transfer over to other versions with little difficulty.If you want to learn more about the different iterations of omeka, please see the descriptions below. 
+Omeka has several different derivatives depending on your needs. The tutorial will be using a self hosted version of Omeka classic; however, the instructions will likely transfer over to other versions with little difficulty. If you want to learn more about the different iterations of Omeka, please see the descriptions below. 
 
 **For students, faculty, and staff at the University of Oklahoma, please see our [tutorial on getting started with OU Create and Omeka](https://oudsl.github.io/OUCreate_and_Omeka/).**
 
-The first distinction is **omeka.net vs omeka.org**. Omeka.net is Omeka's hosted service. You create an account and have access to a limited number of plugins and storage. [Programming Historian has a great tutorial on using getting started with omeka.net](https://programminghistorian.org/en/lessons/up-and-running-with-omeka). The advantages of using omeka.net are that it is easy to set up and you don't need access to a server or IT support to install Omeka on said server. The disadvantages are the lack of storage and ability to access the full range of plugins. The self-hosted omeka downloaded from omeka.org gives you much more flexibility. OU users can easily create a self-hosted site omeka site using [OU Create](https://create.ou.edu/).
+The first distinction is **omeka.net vs omeka.org**. Omeka.net is Omeka's hosted service, where you can create a free trial account and have access to a limited number of plugins and storage. [Programming Historian has a great tutorial on using getting started with omeka.net](https://programminghistorian.org/en/lessons/up-and-running-with-omeka). The advantages of using omeka.net are that it is easy to set up and you don't need access to a server or IT support to install Omeka on said server. The disadvantages are the lack of storage and ability to access the full range of plugins although you can pay to upgrade your plan to have fuller access. The self-hosted Omeka downloaded from omeka.org gives you much more flexibility and is free (as long as you have a server and IT support to get it installed and updated). Luckily, OU users can easily create a self-hosted Omeka site using [OU Create](https://create.ou.edu/).
 
-Another newer distinction is **Omeka Classic vs Omeka S**. Omeka Classic is the standard omeka site while Omeka S is useful if you are managing multiple omeka websites. For this tutorial, we will be using Omeka Classic. 
+Another newer distinction is **Omeka Classic vs Omeka S**. Omeka Classic is the standard Omeka site while Omeka S is useful if you are managing multiple omeka websites. For this tutorial, we will be using Omeka Classic. 
 
 [Return to Top](#about)
 
@@ -75,7 +75,7 @@ This tutorial will walk you through some of the basic tasks you will likely do i
 [Return to Top](#about)
 
 ## Logging In and Navigating the Dashboard
-After you have your omeka site installed ([Please see our setup tutorial for detailed instructions using OU Create]((https://oudsl.github.io/OUCreate_and_Omeka/))), go the the URL you selected for you Omeka site and append /admin. For example, if your Omeka site's URL is omeka.oucreate.com, type in omeka.oucreate.com/admin. 
+After you have your Omeka site installed ([Please see other tutorial for detailed instructions for setting Omeka on OU Create]((https://oudsl.github.io/OUCreate_and_Omeka/))), go the the URL you selected for you Omeka site and append /admin. For example, if your Omeka site's URL is omeka.oucreate.com, type in omeka.oucreate.com/admin. 
 
 This url will direct you to a log in screen for your site. Please enter the username and password you selected when you created the site. If you have forgotten your password, you can using the **Lost your password link** at the bottom of the log in box to reset it. If you site was created using OU Create, you can also log into to your OU Create account and use the CPanel to change your username and password. 
 
@@ -83,16 +83,16 @@ This url will direct you to a log in screen for your site. Please enter the user
 
 After logging in, you will be redirected to your dashboard. This is your base of operations for controlling the content of the website. Take some time to familiarize yourself with the interface. 
 
-There are two main ways of accessing different areas of the site. The main navigation bar is on the left side of the screen. You can also navigate to some of the sections of the dashboard by clicking the numbers on the top center of the page. The numbers are reflective of all of the content on the Omeka site.
+There are a few main ways of accessing different areas of the site. The main navigation bar is on the left side of the screen. You can also navigate to some of the sections of the dashboard by clicking the numbers on the top center of the page. The numbers are reflective of all of the content on the Omeka site. In addition, the menu at the top of the screen will let you change settings and update the appearance of your site. Much of this is covered in our [setting up Omeka tutorial](https://oudsl.github.io/OUCreate_and_Omeka/) so we will not spend much time on it during this tutorial.
 
-The dashboard will also quickly show you the items and collections that have been edited most recently. 
+The center portion of the dashboard will quickly show you the items and collections that have been edited most recently. 
 
 ![The Dashboard](images/image_02.jpg)
 
 [Return to Top](#about)
 
 ## Items
-ITEMS are the building blocks of your Omeka site. An item is any sort of resource you add to Omeka. Items can include images of archival documents, photographs, audio recordings, and videos. You will create collections and exhibits using your items. 
+Items are the building blocks of your Omeka site. An item includes any sort of resource you want to add to Omeka. Items can include images of archival documents, photographs, audio recordings, and videos. You can then create collections and exhibits using your items. 
 
 Click **Items** on the navigation bar to go to the main items page. Here you will see a list of items have already been added to the site. You will have options to **Add an Item**, **Show Details** and **Search Items**. 
 
@@ -111,7 +111,7 @@ This will take you to a new screen with four tabs across the top: **Dublin Core*
 
 *Note: Three out of four of the tab relate to metadata or "data about data". Metadata is information about the item you are uploading. You need good metadata to ensure that the item you upload is identifiable and discoverable.* 
 
-For the purpose of this tutorial, we will upload and describe a historical baseball card from the Library of Congress's collections. We selected this item because the LOC has already provided most of the metadata we need and the item is in the public domain, which means we do not need to worry about copyright restrictions. 
+For the purpose of this tutorial, we will upload and describe a historic baseball card from the Library of Congress's collections. We selected this item because the LOC has already provided most of the metadata we need and the item is in the public domain, which means we do not need to worry about copyright restrictions. 
 
 [We will use the baseball card of Detroit Tigers player, Ty Cobb, for this example](http://www.loc.gov/pictures/collection/bbc/item/2007685675/). You can also [search through the collection](http://www.loc.gov/pictures/collection/bbc/) for other cards if you would prefer to add a different player. 
 
@@ -124,9 +124,9 @@ Below the Add Item button you can select a collection for the item. We will cove
 [Return to Top](#about)
 
 #### Dublin Core Metadata
-The first tab (and the one you should be on by default) is **Dublin Core**. If for some reason, you are not on this tab, click Dublin Core at the top. Dublin Core is one of the most commonly used metadata schemas. This essentially means that is a standard way to gather and represent describe items. Using these standardized schemas allows different systems to work together and be interoperable. The [Digital Public Library of America](https://dp.la/) is a great example of what can be done when metadata is standardized. 
+The first tab (and the one you should be on by default) is **Dublin Core**. If for some reason, you are not on this tab, click Dublin Core at the top of the screen. [Dublin Core](https://en.wikipedia.org/wiki/Dublin_Core) is one of the most commonly used metadata schemas. This essentially means that is a standard way to gather and represent describe items. Using these standardized schemas allows different systems to work together and be interoperable. The [Digital Public Library of America](https://dp.la/) is a great example of what can be done when metadata is standardized. 
 
-Dublin Core was created to be flexible and easy adaptable to a variety of materials and projects. In Omeka we are using Simple Dublin Core, which includes fifteen elements or fields. All fifteen may be relevant to your item or some may not apply. See the descriptions within Omeka for more details about each field. Remember the more information you can provide the more useful your site will be to visitors. 
+Dublin Core was created to be flexible and easy adaptable to a variety of materials and projects. In Omeka we are using Simple Dublin Core, which includes fifteen elements or fields. All fifteen may be relevant to your item or some may not apply. See the descriptions within Omeka for more details about each field. **Remember the more information you can provide about your items, the more useful your site will be to visitors.** 
 
 We will now go through each of the elements and apply them to the [Ty Cobb baseball card](http://www.loc.gov/pictures/collection/bbc/item/2007685675). Some of the fields are extremely clear; others are more ambiguous and will require you to use your best judgement. 
 
@@ -140,7 +140,7 @@ The title field seems pretty self-explanatory and normally is so. This is where 
 [Return to Top](#about)
 
 ##### Subject
-The Subject is the topic of your resource. They are similar to tags, which we will discuss below. Each item may have multiple subjects. Each individual subject will need to be inputted separately in order to make them more searchable. To create a second box for another subject, click the green **Add Input**.
+The subject is the topic of your resource. They are similar to tags, which we will discuss below, but are generally more structured. Each item may have multiple subjects. Each individual subject will need to be inputted separately in order to make them more searchable. To create a second box for another subject, click the green **Add Input**.
 
 Just as it is valuable to have a standardized metadata schema, it is also worthwhile to implement **controlled vocabularies**. By having a set list of terms you can select from for your subjects, you will make it easier to link items with similar themes together.  Many of these vocabularies already exist. The [Library of Congress Subject Headings](http://id.loc.gov/authorities/subjects.html), the [Getty Art & Architecture Thesaurus](http://www.getty.edu/research/tools/vocabularies/aat/), and the [Getty Thesaurus of Geographic Names](http://www.getty.edu/research/tools/vocabularies/tgn/index.html) are some of the most commonly used vocabularies. You can also create your own controlled vocabulary list using a plugin called [Simple Vocab](https://omeka.org/classic/docs/Plugins/SimpleVocab/), which will be discussed in more detail in the Expanding Omeka with Plugins section. 
 
