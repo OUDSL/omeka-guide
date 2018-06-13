@@ -28,6 +28,7 @@ Software Versions: Omeka Classic Version 2.6.1 (hosted via OU Create)
 * [Expanding Omeka](#expanding-omeka)
   * [Recommended Plugins](#recommended-plugins)
   * [Using HTML](#using-html)
+* [Conclusion](#conclusion)
 
 ## What is Omeka?
 [Omeka](https://omeka.org/classic/) is an open-sourced content management system (CMS) developed by the [Roy Rosenzweig Center of History and New Media at George Mason University](https://rrchnm.org/). Omeka was created to share digital collections and build online exhibits. It has an easy to use interface that allows users to create websites without any coding. In this tutorial, we will go through how to add items (and metadata about those items) to a digital collections in Omeka and then create rich exhibits using those collections.
@@ -444,7 +445,7 @@ The other way to customize Omeka is to use HTML. In most of the text boxes in Om
 
 Even if you do not have any prior experience with HTML, you can learn to implement a few code snippets in Omeka! For example, using HTML in Omeka is particularly useful when you want to embed something onto your site. For example, you may want to put a data visualization from Tableau on an exhibit page or maybe you want to include a video that you have not added as an item. The most common way to embed content from another website (if it doesn't already provide a embed code) is to use an **iframe**. After selecting the option to input html enter the code below, where [url] is the website or content you want to display on your site. 
 
-**\<iframe src="[url]">
+**\<iframe src='[url]'>
 \</iframe>**
 
 That's it! You can add extra parameters like width and height, but that is all the code you need to display another website in your Omeka site. 
