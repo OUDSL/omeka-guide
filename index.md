@@ -1,6 +1,6 @@
 ## About
 Last Updated September, 2019
-Created by Sarah Clayton   
+Created by Sarah Pugachev  
 Software Versions: Omeka Classic Version 2.6.1 (hosted via OU Create) 
 
 
