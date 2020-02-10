@@ -1,5 +1,5 @@
 ## About
-Last Updated June 13, 2018  
+Last Updated September, 2019
 Created by Sarah Clayton   
 Software Versions: Omeka Classic Version 2.6.1 (hosted via OU Create) 
 
